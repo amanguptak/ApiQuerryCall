@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container {
+
+
+    margin: 20px;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+.header {
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+
+    flex-direction: column;
+
+}
+
+.header form {
+    display: inline;
+}
+
+.header input {
+    width: 30%;
+    height: 28px;
+    border: 5px solid rgb(237, 244, 246);
+    border-radius: 5px;
+}
+
+.header button {
+    padding: 5px 10px 5px 10px;
+
+    margin: 8px;
+    background-color: rgb(13, 105, 105);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(13, 105, 105);
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-grp {
+    padding: 8px;
+
+    margin: 8px;
+    background-color: rgb(238, 244, 244);
+    color: rgb(150, 147, 147);
+    border-radius: 8px;
+    border: 2px solid rgb(150, 147, 147);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.sort {
+    padding: 5px 10px 5px 10px;
+
+    margin: 18px;
+    background-color: rgb(13, 105, 105);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(13, 105, 105);
+    font-family: 'Poppins', sans-serif;
+}
+
+.header button:hover {
+    background-color: rgb(13, 182, 182);
+    border: 2px solid rgb(13, 182, 182);
+}
+
+.head {
+
+    border-collapse: collapse;
+
+    box-shadow: 0 0 20px 8px #d0d0d0;
+
+}
+
+.head td,
+.head th {
+
+    padding: 8px;
+    border-bottom: 0.2px solid rgb(237, 236, 236);
+    font-size: 14px;
+    width: 900px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.detail {
+    border-top-left-radius: 25px;
+    background-color: rgb(237, 244, 246);
+}
+
+.detail th {
+    padding: 16px;
+}
+
+.status {
+    padding: 4px;
+    border-radius: 10px;
+    border: 1px solid rgb(226, 229, 251);
+    background-color: rgb(228, 231, 255);
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.orderid {
+    font-weight: bold;
+}
